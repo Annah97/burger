@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Burger-top  {
+  background-color: "#f1a93b";
+  height: "50px";
+  border-radius: "25px 25px 0px 0px";
+  margin-bottom: "5px";
+}
+.Burger-base  {
+  background-color: "#f1a93b";
+  height: "50px";
+  border-radius: "0px 0px 25px 25px";
+}
+.Burger-tomato {
+  background-color: "#ea3323";
+  color: "#faf8ec";
+  height: "50px";
+  margin-bottom: "5px";
+  text-align: "center";
+  padding-top: "15px";
+}
+.Burger-meat {
+  background-color: "#814233";
+  color: "#faf8ec";
+  height: "50px";
+  margin-bottom: "5px";
+  text-align: "center";
+  padding-top: "15px";
+}
+.Burger-lettuce {
+  background-color: "#407931";
+  color: "#faf8ec";
+  height: "30px";
+  margin-bottom: "5px";
+  text-align: "center";
+  padding-top: "8px";
+}
