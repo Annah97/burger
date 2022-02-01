@@ -1,5 +1,5 @@
+import "./App.css";
 // import logo from './logo.svg';
-// import './App.css';
 
 // function App() {
 //   return (
@@ -25,19 +25,19 @@
 // export default App;
 
 function TopBread() {
-  return <div className="Burger-top"></div>
+  return <div className="Burger-top" />;
 }
 function Tomato() {
-  return <div className="Burger-tomato">Tomato</div>
+  return <div className="Burger-tomato">Tomato</div>;
 }
 function Meat() {
-  return <div className="Burger-meat">Meat</div>
+  return <div className="Burger-meat">Meat</div>;
 }
 function Lettuce() {
-  return <div className="Burger-lettuce">Lettuce</div>
+  return <div className="Burger-lettuce">Lettuce</div>;
 }
 function BaseBread() {
-  return <div className="Burger-base"></div>
+  return <div className="Burger-base" />;
 }
 export default function Burger() {
   return (
@@ -48,5 +48,5 @@ export default function Burger() {
       <Lettuce />
       <BaseBread />
     </section>
-  )
+  );
 }
