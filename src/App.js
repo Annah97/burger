@@ -24,24 +24,64 @@ import "./App.css";
 
 // export default App;
 
+const top = {
+  backgroundColor: "#f1a93b",
+  height: "50px",
+  borderRadius: "25px 25px 0px 0px",
+  marginBottom: "5px",
+};
+const base = {
+  backgroundColor: "#f1a93b",
+  height: "50px",
+  borderRadius: "0px 0px 25px 25px",
+};
+const tomato = {
+  backgroundColor: "#ea3323",
+  color: "#faf8ec",
+  height: "50px",
+  marginBottom: "5px",
+  textAlign: "center",
+  paddingTop: "15px",
+};
+const meat = {
+  backgroundColor: "#814233",
+  color: "#faf8ec",
+  height: "50px",
+  marginBottom: "5px",
+  textAlign: "center",
+  paddingTop: "15px",
+};
+const lettuce = {
+  backgroundColor: "#407931",
+  color: "#faf8ec",
+  height: "30px",
+  marginBottom: "5px",
+  textAlign: "center",
+  paddingTop: "8px",
+};
+const container = {
+  marginLeft: "200px",
+  width: "50%",
+};
+
 function TopBread() {
-  return <div className="Burger-top" />;
+  return <div style={top} />;
 }
 function Tomato() {
-  return <div className="Burger-tomato">Tomato</div>;
+  return <div style={tomato}>Tomato</div>;
 }
 function Meat() {
-  return <div className="Burger-meat">Meat</div>;
+  return <div style={meat}>Meat</div>;
 }
 function Lettuce() {
-  return <div className="Burger-lettuce">Lettuce</div>;
+  return <div style={lettuce}>Lettuce</div>;
 }
 function BaseBread() {
-  return <div className="Burger-base" />;
+  return <div style={base} />;
 }
 export default function Burger() {
   return (
-    <section>
+    <section style={container}>
       <TopBread />
       <Tomato />
       <Meat />
