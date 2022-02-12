@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import Burger from "./App";
 
 ReactDOM.render(
-  // <React.StrictMode>
-  <App />,
-  // </React.StrictMode>,
+  <React.StrictMode>
+    <Burger />,
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
