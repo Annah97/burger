@@ -1,5 +1,5 @@
 import "../App.css";
 
 export default function Lettuce() {
-  return <div className="Burgerlettuce" />;
+  return <div className="Burgerlettuce">Lettuce</div>;
 }
